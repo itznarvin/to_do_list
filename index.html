@@ -1,7 +1,37 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
     <head>
-        <h1>To Do List</h1>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0" />
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
+
+    <body>
+        <div class="container">
+        <h1>To Do List</h1>
+
+        <div class="input selection">
+            <input type="text" id="task - input" placeholder="Enter a task">
+            <button id="add-btn">Add</button>
+        </div>
+
+        <br>
+
+         <div class="input selection">
+            <input type="text" id="task - input" placeholder="Remove a Task">
+            <button id="remove-btn">Remove</button>
+        </div>
+
+        <br>
+
+        <button id="view-btn">View Completed Tasks</button>
+        
+
+        <ul id="task-list"></ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
 </html>
