@@ -8,3 +8,9 @@ wrote a simple and easy to understand html code
 
 wrote a css file 
 
+*** updates ***
+
+Ive created js file.
+
+I deleted the, remove option.
+

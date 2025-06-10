@@ -1,7 +1,7 @@
 /* styles.css */
 body {
     font-family: sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5f5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,17 +37,6 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
-
-
-#remove-btn {
-  padding: 10px 15px;
-  background-color: #28a7;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 
 #view-btn {
   padding: 10px 15px;
