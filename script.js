@@ -16,7 +16,10 @@ addBtn.addEventListener("click", () => {
      
         li.addEventListener("click", () => {
             li.classList.toggle("completed");
+
+     const input = document.getElementById("view-btn")
         });
+       
 
         // Delete button
         const deleteBtn = document.createElement("button");
